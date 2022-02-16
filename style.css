@@ -23,21 +23,25 @@ body {
     float: left;
 }
 
-.nv-rt {
-    margin-left: 5%;
-}
-
 .ul {
     margin: 0;
     padding: 0;
-    height: 12vh;
+}
+
+.nav {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
 }
 
 .li-nav {
-    margin-top: 15px;
-    float: left;
     display: inline-block;
     padding: 10px;
+    margin-top: 10px;
     font-weight: bold;
 }
 
@@ -50,19 +54,21 @@ a {
     color: black;
 }
 
+.img-rt {
+    float: right;
+    width: 160px;
+}
 
 .signUp {
     height: 5vh;
-    padding: 12px 0px;
-    float: right;
 }
 
 .cart {
-    padding: 15px;
+    width: 35px;
+    margin-right: 13px;
+    margin-left: 4%;
     display: inline-block;
     float: right;
-    margin-right: 4%;
-    margin-left: 4%;
 }
 
 .bg {
@@ -72,8 +78,9 @@ a {
 }
 
 .bg-px {
+    padding-top: 45px;
     width: 35vw;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     margin-left: 80px;
 }
@@ -114,7 +121,7 @@ a {
 .fx-border {
     background-color: white;
     box-shadow: 100px;
-    width: 25vw;
+    width: 18vw;
     margin: 2%;
     padding: 5% 2%;
 }
